@@ -30,7 +30,7 @@ public class DarazLoginTest {
         // Wait for the submit tel number
 
         WebElement inputTelNumber = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(" //input[@placeholder='කරුණාකර ඔබගේ දුරකථන අංකය ඇතුලත් කරන්න']")));
-        inputTelNumber.sendKeys("+760368019");
+        inputTelNumber.sendKeys("+7xxxxxxxx");
 
         //clickt eh send button get otp
 
